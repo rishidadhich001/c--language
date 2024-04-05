@@ -7,7 +7,7 @@ class Customer
 		char name[50];
 		int age;
 		char city[50];
-		int mobile_no;
+		long int mobile_no;
 		int simcard_validity;
 		char telecom_brand_name[50];
 	public:	
