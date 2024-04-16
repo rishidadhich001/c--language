@@ -21,16 +21,16 @@ class times
 		{
 			if(sec>=60)
 			{
-				int team_min;
-				team_min = sec / 60; 
-				min = min + team_min;
+				int temp_min;
+				temp_min = sec / 60; 
+				min = min + temp_min;
 				s=sec % 60; 
 			}
 			if(sec>=60)
 			{
-				int team_hour;
-				team_hour = min / 60; 
-				hour = hour + team_hour;
+				int temp_hour;
+				temp_hour = min / 60; 
+				hour = hour + temp_hour;
 				min=min % 60; 
 			}
 		}
